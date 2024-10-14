@@ -2,7 +2,7 @@
 
 本文件介绍如何导入并使用我们的docker镜像。
 
-1. 下载镜像压缩包，链接：https://figshare.com/articles/dataset/MFLocator_tar/27225828
+1. 下载镜像压缩包，链接：https://figshare.com/articles/dataset/MFLocator_tar/27225828 (部分浏览器显示不全，进入后请下拉页面)
 
 2. 从压缩包中加载镜像
 
