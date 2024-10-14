@@ -19,7 +19,7 @@
 │   ├── ranking.py                   # 生成语义特征，进行特征拼接，输入模型得到代码提交最终排名
 │   ├── VCMATCH_encoding_module.py    # VCMATCH生成语义特征的函数文件
 │   ├── VCMATCH_ranking.py          # VCMATCH 得到代码提交最终排名
-│   ├── util.py                # 自定义函数文件
+│   ├── util.py                       # 自定义函数文件
 ├── data/
 │   ├── data.csv                     # 1669个漏洞CVE ID及安全补丁的代码提交哈希值
 │   ├── cve_desc.csv                 # 1669个漏洞的描述信息
