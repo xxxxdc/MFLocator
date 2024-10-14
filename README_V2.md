@@ -10,25 +10,25 @@
 
 ```bash
 ├── code/
-│   ├── collect_data.py								# 爬取CVE和NVD的页面信息
-│   ├── create_dataset.py                         # 生成数据集
-│   ├── get_token.py				                # 得到有效词词袋以及IDF值
-│   ├── process_data.py				              # 获得手工特征生成所需的信息
-│   ├── feature.py					                  # 生成手工特征
-│   ├── encoding_module.py			            # 生成语义特征的函数文件
-│   ├── ranking.py					                  # 生成语义特征，进行特征拼接，输入模型得到代码提交最终排名
-│   ├── VCMATCH_encoding_module.py	    # VCMATCH生成语义特征的函数文件
-│   ├── VCMATCH_ranking.py			          # VCMATCH 得到代码提交最终排名
-│   ├── util.py						                     # 自定义函数文件
+│   ├── collect_data.py            # 爬取CVE和NVD的页面信息
+│   ├── create_dataset.py            # 生成数据集
+│   ├── get_token.py            # 得到有效词词袋以及IDF值
+│   ├── process_data.py            # 获得手工特征生成所需的信息
+│   ├── feature.py            # 生成手工特征
+│   ├── encoding_module.py            # 生成语义特征的函数文件
+│   ├── ranking.py            # 生成语义特征，进行特征拼接，输入模型得到代码提交最终排名
+│   ├── VCMATCH_encoding_module.py            # VCMATCH生成语义特征的函数文件
+│   ├── VCMATCH_ranking.py            # VCMATCH 得到代码提交最终排名
+│   ├── util.py      # 自定义函数文件
 ├── data/
-│   ├── data.csv					                   # 1669个漏洞CVE ID及安全补丁的代码提交哈希值
-│   ├── cve_desc.csv				                # 1669个漏洞的描述信息
-│   ├── vuln_type_impact.json		             # 漏洞类型和影响文件
-├── README.md                                       # 赛题原始README文件
-├── README_V2.md                                  # 本项目README文件
-├── Report.pdf                                          # 本作品对应报告
-├── docker.md                                          # 所构建docker镜像的下载链接及运行方法
-├── 队员名单.md                                        # 本参赛队伍人员组成
+│   ├── data.csv            # 1669个漏洞CVE ID及安全补丁的代码提交哈希值
+│   ├── cve_desc.csv            # 1669个漏洞的描述信息
+│   ├── vuln_type_impact.json            # 漏洞类型和影响文件
+├── README.md            # 赛题原始README文件
+├── README_V2.md            # 本项目README文件
+├── Report.pdf             # 本作品对应报告
+├── docker.md            # 所构建docker镜像的下载链接及运行方法
+├── 队员名单.md            # 本参赛队伍人员组成
 ```
 
 
