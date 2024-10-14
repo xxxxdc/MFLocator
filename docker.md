@@ -2,7 +2,7 @@
 
 本文件介绍如何导入并使用我们的docker镜像。
 
-1. 下载镜像压缩包，链接：<font color=blue>https://figshare.com/articles/dataset/MFLocator_tar/27225828</font> (部分浏览器显示不全，进入后请下拉页面)
+1. 下载镜像压缩包，链接：https://figshare.com/articles/dataset/MFLocator_tar/27225828 (部分浏览器显示不全，进入后请下拉页面)
 
 2. 从压缩包中加载镜像
 
@@ -34,4 +34,4 @@
    cd root/MFLocator/
    ```
 
-7. 运行代码，具体请见 <font color=blue>[README_V2.md](https://www.gitlink.org.cn/xxxdc/competition-vd/tree/master/README_V2.md)</font>
+7. 运行代码，具体请见 [README_V2.md](https://www.gitlink.org.cn/xxxdc/competition-vd/tree/master/README_V2.md)
